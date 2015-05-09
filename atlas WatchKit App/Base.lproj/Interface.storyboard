@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3737"/>
+    </dependencies>
+    <scenes>
+        <!--Atlas-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller title="Atlas" id="AgC-eL-Hgc" customClass="InterfaceController">
+                    <items>
+                        <table alignment="left" id="AFM-g2-Kw5">
+                            <items>
+                                <tableRow id="WJw-lt-ZnB" customClass="ShopRowController">
+                                    <group key="rootItem" width="1" height="51.5" alignment="left" layout="vertical" id="yuW-hP-krH">
+                                        <items>
+                                            <group width="1" alignment="left" id="tfA-5Q-L2h">
+                                                <items>
+                                                    <group alignment="left" id="lkL-Ud-1a6">
+                                                        <items>
+                                                            <imageView width="32" height="35" alignment="left" verticalAlignment="center" contentMode="scaleAspectFit" id="FLP-J6-LRN"/>
+                                                        </items>
+                                                    </group>
+                                                    <group alignment="left" layout="vertical" id="beh-xs-8h0">
+                                                        <items>
+                                                            <label width="85" height="17" alignment="left" text=" " id="GKk-fW-jWL">
+                                                                <fontDescription key="font" type="system" weight="semibold" pointSize="15"/>
+                                                            </label>
+                                                            <label width="88" alignment="left" text=" " id="FcF-G5-X0D">
+                                                                <color key="textColor" red="0.49014008045196533" green="0.49022823572158813" blue="0.49013453722000122" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <fontDescription key="font" type="italicSystem" weight="light" pointSize="15"/>
+                                                            </label>
+                                                        </items>
+                                                        <edgeInsets key="margins" left="8" right="0.0" top="3" bottom="0.0"/>
+                                                    </group>
+                                                </items>
+                                            </group>
+                                            <separator alignment="left" id="kch-Ze-q7b">
+                                                <color key="color" red="0.013950696215033531" green="0.15035060048103333" blue="0.0760054811835289" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </separator>
+                                        </items>
+                                        <color key="backgroundColor" red="0.49014008045196533" green="0.49022823572158813" blue="0.49013453722000122" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </group>
+                                    <connections>
+                                        <outlet property="group" destination="yuW-hP-krH" id="bpO-G0-62q"/>
+                                        <outlet property="image" destination="FLP-J6-LRN" id="hks-78-YwV"/>
+                                        <outlet property="line" destination="kch-Ze-q7b" id="Zgp-Jf-kol"/>
+                                        <outlet property="packLabel" destination="FcF-G5-X0D" id="aew-Rs-g5t"/>
+                                        <outlet property="rowLabel" destination="GKk-fW-jWL" id="NxF-ej-ZkL"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="myTable" destination="AFM-g2-Kw5" id="ti4-PA-dlF"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="182" y="302"/>
+        </scene>
+        <!--Glance Interface Controller-->
+        <scene sceneID="BOz-TT-tkC">
+            <objects>
+                <glanceController spacing="0.0" id="0uZ-2p-rRc" customClass="GlanceController">
+                    <items>
+                        <group alignment="left" id="t8f-Gd-c4y"/>
+                        <group alignment="left" id="uCw-4Q-Ouw"/>
+                    </items>
+                    <edgeInsets key="margins" left="0.0" right="0.0" top="0.0" bottom="14"/>
+                </glanceController>
+            </objects>
+            <point key="canvasLocation" x="235" y="672"/>
+        </scene>
+        <!--Static Notification Interface Controller-->
+        <scene sceneID="AEw-b0-oYE">
+            <objects>
+                <notificationController id="YCC-NB-fut">
+                    <items>
+                        <label alignment="left" text="Alert Label" id="XkS-y5-khE"/>
+                    </items>
+                    <notificationCategory key="notificationCategory" identifier="myCategory" id="JfB-70-Muf"/>
+                    <connections>
+                        <outlet property="notificationAlertLabel" destination="XkS-y5-khE" id="49B-RR-99y"/>
+                        <segue destination="gdX-wl-uQE" kind="relationship" relationship="dynamicNotificationInterface" id="fKh-qV-3T2"/>
+                    </connections>
+                </notificationController>
+            </objects>
+            <point key="canvasLocation" x="235" y="1001"/>
+        </scene>
+        <!--Notification Controller-->
+        <scene sceneID="KIl-fV-djm">
+            <objects>
+                <controller id="gdX-wl-uQE" customClass="NotificationController"/>
+            </objects>
+            <point key="canvasLocation" x="553" y="1001"/>
+        </scene>
+    </scenes>
+    <color key="tintColor" red="1" green="0.0033453158102929592" blue="0.29220080375671387" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</document>

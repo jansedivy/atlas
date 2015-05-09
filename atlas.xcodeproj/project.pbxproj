@@ -1,0 +1,735 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB0B3E4D1AFDFA9700079A74 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB0B3E4C1AFDFA9700079A74 /* main.m */; };
+		FB0B3E501AFDFA9700079A74 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB0B3E4F1AFDFA9700079A74 /* AppDelegate.m */; };
+		FB0B3E531AFDFA9700079A74 /* atlas.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FB0B3E511AFDFA9700079A74 /* atlas.xcdatamodeld */; };
+		FB0B3E561AFDFA9700079A74 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB0B3E551AFDFA9700079A74 /* ViewController.m */; };
+		FB0B3E591AFDFA9700079A74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB0B3E571AFDFA9700079A74 /* Main.storyboard */; };
+		FB0B3E5B1AFDFA9700079A74 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB0B3E5A1AFDFA9700079A74 /* Images.xcassets */; };
+		FB0B3E5E1AFDFA9700079A74 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB0B3E5C1AFDFA9700079A74 /* LaunchScreen.xib */; };
+		FB0B3E6A1AFDFA9700079A74 /* atlasTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB0B3E691AFDFA9700079A74 /* atlasTests.m */; };
+		FB0B3E7E1AFDFAA300079A74 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB0B3E7D1AFDFAA300079A74 /* InterfaceController.m */; };
+		FB0B3E811AFDFAA300079A74 /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB0B3E801AFDFAA300079A74 /* NotificationController.m */; };
+		FB0B3E841AFDFAA300079A74 /* GlanceController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB0B3E831AFDFAA300079A74 /* GlanceController.m */; };
+		FB0B3E861AFDFAA300079A74 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB0B3E851AFDFAA300079A74 /* Images.xcassets */; };
+		FB0B3E8A1AFDFAA300079A74 /* atlas WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = FB0B3E891AFDFAA300079A74 /* atlas WatchKit App.app */; };
+		FB0B3E921AFDFAA300079A74 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB0B3E901AFDFAA300079A74 /* Interface.storyboard */; };
+		FB0B3E941AFDFAA300079A74 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB0B3E931AFDFAA300079A74 /* Images.xcassets */; };
+		FB0B3E971AFDFAA300079A74 /* atlas WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = FB0B3E771AFDFAA300079A74 /* atlas WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FB0B3EA11AFDFB9F00079A74 /* ShopRowController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB0B3EA01AFDFB9F00079A74 /* ShopRowController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB0B3E641AFDFA9700079A74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB0B3E3F1AFDFA9700079A74 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB0B3E461AFDFA9700079A74;
+			remoteInfo = atlas;
+		};
+		FB0B3E8B1AFDFAA300079A74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB0B3E3F1AFDFA9700079A74 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB0B3E881AFDFAA300079A74;
+			remoteInfo = "atlas WatchKit App";
+		};
+		FB0B3E951AFDFAA300079A74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB0B3E3F1AFDFA9700079A74 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB0B3E761AFDFAA300079A74;
+			remoteInfo = "atlas WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FB0B3E9E1AFDFAA300079A74 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				FB0B3E971AFDFAA300079A74 /* atlas WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FB0B3E471AFDFA9700079A74 /* atlas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = atlas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB0B3E4B1AFDFA9700079A74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB0B3E4C1AFDFA9700079A74 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FB0B3E4E1AFDFA9700079A74 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FB0B3E4F1AFDFA9700079A74 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FB0B3E521AFDFA9700079A74 /* atlas.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = atlas.xcdatamodel; sourceTree = "<group>"; };
+		FB0B3E541AFDFA9700079A74 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FB0B3E551AFDFA9700079A74 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FB0B3E581AFDFA9700079A74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB0B3E5A1AFDFA9700079A74 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FB0B3E5D1AFDFA9700079A74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FB0B3E631AFDFA9700079A74 /* atlasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = atlasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB0B3E681AFDFA9700079A74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB0B3E691AFDFA9700079A74 /* atlasTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = atlasTests.m; sourceTree = "<group>"; };
+		FB0B3E771AFDFAA300079A74 /* atlas WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "atlas WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB0B3E7A1AFDFAA300079A74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB0B3E7B1AFDFAA300079A74 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		FB0B3E7C1AFDFAA300079A74 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		FB0B3E7D1AFDFAA300079A74 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		FB0B3E7F1AFDFAA300079A74 /* NotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
+		FB0B3E801AFDFAA300079A74 /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
+		FB0B3E821AFDFAA300079A74 /* GlanceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlanceController.h; sourceTree = "<group>"; };
+		FB0B3E831AFDFAA300079A74 /* GlanceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GlanceController.m; sourceTree = "<group>"; };
+		FB0B3E851AFDFAA300079A74 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FB0B3E891AFDFAA300079A74 /* atlas WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "atlas WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB0B3E8F1AFDFAA300079A74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB0B3E911AFDFAA300079A74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		FB0B3E931AFDFAA300079A74 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FB0B3E9F1AFDFB9F00079A74 /* ShopRowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopRowController.h; sourceTree = "<group>"; };
+		FB0B3EA01AFDFB9F00079A74 /* ShopRowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopRowController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB0B3E441AFDFA9700079A74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB0B3E601AFDFA9700079A74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB0B3E741AFDFAA300079A74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB0B3E3E1AFDFA9700079A74 = {
+			isa = PBXGroup;
+			children = (
+				FB0B3E491AFDFA9700079A74 /* atlas */,
+				FB0B3E661AFDFA9700079A74 /* atlasTests */,
+				FB0B3E781AFDFAA300079A74 /* atlas WatchKit Extension */,
+				FB0B3E8D1AFDFAA300079A74 /* atlas WatchKit App */,
+				FB0B3E481AFDFA9700079A74 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB0B3E481AFDFA9700079A74 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB0B3E471AFDFA9700079A74 /* atlas.app */,
+				FB0B3E631AFDFA9700079A74 /* atlasTests.xctest */,
+				FB0B3E771AFDFAA300079A74 /* atlas WatchKit Extension.appex */,
+				FB0B3E891AFDFAA300079A74 /* atlas WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB0B3E491AFDFA9700079A74 /* atlas */ = {
+			isa = PBXGroup;
+			children = (
+				FB0B3E4E1AFDFA9700079A74 /* AppDelegate.h */,
+				FB0B3E4F1AFDFA9700079A74 /* AppDelegate.m */,
+				FB0B3E541AFDFA9700079A74 /* ViewController.h */,
+				FB0B3E551AFDFA9700079A74 /* ViewController.m */,
+				FB0B3E571AFDFA9700079A74 /* Main.storyboard */,
+				FB0B3E5A1AFDFA9700079A74 /* Images.xcassets */,
+				FB0B3E5C1AFDFA9700079A74 /* LaunchScreen.xib */,
+				FB0B3E511AFDFA9700079A74 /* atlas.xcdatamodeld */,
+				FB0B3E4A1AFDFA9700079A74 /* Supporting Files */,
+			);
+			path = atlas;
+			sourceTree = "<group>";
+		};
+		FB0B3E4A1AFDFA9700079A74 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB0B3E4B1AFDFA9700079A74 /* Info.plist */,
+				FB0B3E4C1AFDFA9700079A74 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FB0B3E661AFDFA9700079A74 /* atlasTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB0B3E691AFDFA9700079A74 /* atlasTests.m */,
+				FB0B3E671AFDFA9700079A74 /* Supporting Files */,
+			);
+			path = atlasTests;
+			sourceTree = "<group>";
+		};
+		FB0B3E671AFDFA9700079A74 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB0B3E681AFDFA9700079A74 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FB0B3E781AFDFAA300079A74 /* atlas WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				FB0B3E7C1AFDFAA300079A74 /* InterfaceController.h */,
+				FB0B3E7D1AFDFAA300079A74 /* InterfaceController.m */,
+				FB0B3E7F1AFDFAA300079A74 /* NotificationController.h */,
+				FB0B3E801AFDFAA300079A74 /* NotificationController.m */,
+				FB0B3E821AFDFAA300079A74 /* GlanceController.h */,
+				FB0B3E831AFDFAA300079A74 /* GlanceController.m */,
+				FB0B3E851AFDFAA300079A74 /* Images.xcassets */,
+				FB0B3E791AFDFAA300079A74 /* Supporting Files */,
+				FB0B3E9F1AFDFB9F00079A74 /* ShopRowController.h */,
+				FB0B3EA01AFDFB9F00079A74 /* ShopRowController.m */,
+			);
+			path = "atlas WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		FB0B3E791AFDFAA300079A74 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB0B3E7A1AFDFAA300079A74 /* Info.plist */,
+				FB0B3E7B1AFDFAA300079A74 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FB0B3E8D1AFDFAA300079A74 /* atlas WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				FB0B3E901AFDFAA300079A74 /* Interface.storyboard */,
+				FB0B3E931AFDFAA300079A74 /* Images.xcassets */,
+				FB0B3E8E1AFDFAA300079A74 /* Supporting Files */,
+			);
+			path = "atlas WatchKit App";
+			sourceTree = "<group>";
+		};
+		FB0B3E8E1AFDFAA300079A74 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB0B3E8F1AFDFAA300079A74 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB0B3E461AFDFA9700079A74 /* atlas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB0B3E6D1AFDFA9700079A74 /* Build configuration list for PBXNativeTarget "atlas" */;
+			buildPhases = (
+				FB0B3E431AFDFA9700079A74 /* Sources */,
+				FB0B3E441AFDFA9700079A74 /* Frameworks */,
+				FB0B3E451AFDFA9700079A74 /* Resources */,
+				FB0B3E9E1AFDFAA300079A74 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB0B3E961AFDFAA300079A74 /* PBXTargetDependency */,
+			);
+			name = atlas;
+			productName = atlas;
+			productReference = FB0B3E471AFDFA9700079A74 /* atlas.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB0B3E621AFDFA9700079A74 /* atlasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB0B3E701AFDFA9700079A74 /* Build configuration list for PBXNativeTarget "atlasTests" */;
+			buildPhases = (
+				FB0B3E5F1AFDFA9700079A74 /* Sources */,
+				FB0B3E601AFDFA9700079A74 /* Frameworks */,
+				FB0B3E611AFDFA9700079A74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB0B3E651AFDFA9700079A74 /* PBXTargetDependency */,
+			);
+			name = atlasTests;
+			productName = atlasTests;
+			productReference = FB0B3E631AFDFA9700079A74 /* atlasTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FB0B3E761AFDFAA300079A74 /* atlas WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB0B3E9B1AFDFAA300079A74 /* Build configuration list for PBXNativeTarget "atlas WatchKit Extension" */;
+			buildPhases = (
+				FB0B3E731AFDFAA300079A74 /* Sources */,
+				FB0B3E741AFDFAA300079A74 /* Frameworks */,
+				FB0B3E751AFDFAA300079A74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB0B3E8C1AFDFAA300079A74 /* PBXTargetDependency */,
+			);
+			name = "atlas WatchKit Extension";
+			productName = "atlas WatchKit Extension";
+			productReference = FB0B3E771AFDFAA300079A74 /* atlas WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		FB0B3E881AFDFAA300079A74 /* atlas WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB0B3E981AFDFAA300079A74 /* Build configuration list for PBXNativeTarget "atlas WatchKit App" */;
+			buildPhases = (
+				FB0B3E871AFDFAA300079A74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "atlas WatchKit App";
+			productName = "atlas WatchKit App";
+			productReference = FB0B3E891AFDFAA300079A74 /* atlas WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB0B3E3F1AFDFA9700079A74 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Jan Sedivy";
+				TargetAttributes = {
+					FB0B3E461AFDFA9700079A74 = {
+						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = W75TTNCJXU;
+					};
+					FB0B3E621AFDFA9700079A74 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = FB0B3E461AFDFA9700079A74;
+					};
+					FB0B3E761AFDFAA300079A74 = {
+						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = W75TTNCJXU;
+					};
+					FB0B3E881AFDFAA300079A74 = {
+						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = W75TTNCJXU;
+					};
+				};
+			};
+			buildConfigurationList = FB0B3E421AFDFA9700079A74 /* Build configuration list for PBXProject "atlas" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB0B3E3E1AFDFA9700079A74;
+			productRefGroup = FB0B3E481AFDFA9700079A74 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB0B3E461AFDFA9700079A74 /* atlas */,
+				FB0B3E621AFDFA9700079A74 /* atlasTests */,
+				FB0B3E761AFDFAA300079A74 /* atlas WatchKit Extension */,
+				FB0B3E881AFDFAA300079A74 /* atlas WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB0B3E451AFDFA9700079A74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB0B3E591AFDFA9700079A74 /* Main.storyboard in Resources */,
+				FB0B3E5E1AFDFA9700079A74 /* LaunchScreen.xib in Resources */,
+				FB0B3E5B1AFDFA9700079A74 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB0B3E611AFDFA9700079A74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB0B3E751AFDFAA300079A74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB0B3E8A1AFDFAA300079A74 /* atlas WatchKit App.app in Resources */,
+				FB0B3E861AFDFAA300079A74 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB0B3E871AFDFAA300079A74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB0B3E921AFDFAA300079A74 /* Interface.storyboard in Resources */,
+				FB0B3E941AFDFAA300079A74 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB0B3E431AFDFA9700079A74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB0B3E501AFDFA9700079A74 /* AppDelegate.m in Sources */,
+				FB0B3E531AFDFA9700079A74 /* atlas.xcdatamodeld in Sources */,
+				FB0B3E561AFDFA9700079A74 /* ViewController.m in Sources */,
+				FB0B3E4D1AFDFA9700079A74 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB0B3E5F1AFDFA9700079A74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB0B3E6A1AFDFA9700079A74 /* atlasTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB0B3E731AFDFAA300079A74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB0B3EA11AFDFB9F00079A74 /* ShopRowController.m in Sources */,
+				FB0B3E811AFDFAA300079A74 /* NotificationController.m in Sources */,
+				FB0B3E7E1AFDFAA300079A74 /* InterfaceController.m in Sources */,
+				FB0B3E841AFDFAA300079A74 /* GlanceController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB0B3E651AFDFA9700079A74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB0B3E461AFDFA9700079A74 /* atlas */;
+			targetProxy = FB0B3E641AFDFA9700079A74 /* PBXContainerItemProxy */;
+		};
+		FB0B3E8C1AFDFAA300079A74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB0B3E881AFDFAA300079A74 /* atlas WatchKit App */;
+			targetProxy = FB0B3E8B1AFDFAA300079A74 /* PBXContainerItemProxy */;
+		};
+		FB0B3E961AFDFAA300079A74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB0B3E761AFDFAA300079A74 /* atlas WatchKit Extension */;
+			targetProxy = FB0B3E951AFDFAA300079A74 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB0B3E571AFDFA9700079A74 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB0B3E581AFDFA9700079A74 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB0B3E5C1AFDFA9700079A74 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB0B3E5D1AFDFA9700079A74 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		FB0B3E901AFDFAA300079A74 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB0B3E911AFDFAA300079A74 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB0B3E6B1AFDFA9700079A74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FB0B3E6C1AFDFA9700079A74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB0B3E6E1AFDFA9700079A74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = atlas/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FB0B3E6F1AFDFA9700079A74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = atlas/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FB0B3E711AFDFA9700079A74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = atlasTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/atlas.app/atlas";
+			};
+			name = Debug;
+		};
+		FB0B3E721AFDFA9700079A74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = atlasTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/atlas.app/atlas";
+			};
+			name = Release;
+		};
+		FB0B3E991AFDFAA300079A74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = atlas_WatchKit_Extension;
+				INFOPLIST_FILE = "atlas WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		FB0B3E9A1AFDFAA300079A74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				IBSC_MODULE = atlas_WatchKit_Extension;
+				INFOPLIST_FILE = "atlas WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		FB0B3E9C1AFDFAA300079A74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "atlas WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FB0B3E9D1AFDFAA300079A74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "atlas WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB0B3E421AFDFA9700079A74 /* Build configuration list for PBXProject "atlas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB0B3E6B1AFDFA9700079A74 /* Debug */,
+				FB0B3E6C1AFDFA9700079A74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB0B3E6D1AFDFA9700079A74 /* Build configuration list for PBXNativeTarget "atlas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB0B3E6E1AFDFA9700079A74 /* Debug */,
+				FB0B3E6F1AFDFA9700079A74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB0B3E701AFDFA9700079A74 /* Build configuration list for PBXNativeTarget "atlasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB0B3E711AFDFA9700079A74 /* Debug */,
+				FB0B3E721AFDFA9700079A74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB0B3E981AFDFAA300079A74 /* Build configuration list for PBXNativeTarget "atlas WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB0B3E991AFDFAA300079A74 /* Debug */,
+				FB0B3E9A1AFDFAA300079A74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB0B3E9B1AFDFAA300079A74 /* Build configuration list for PBXNativeTarget "atlas WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB0B3E9C1AFDFAA300079A74 /* Debug */,
+				FB0B3E9D1AFDFAA300079A74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FB0B3E511AFDFA9700079A74 /* atlas.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FB0B3E521AFDFA9700079A74 /* atlas.xcdatamodel */,
+			);
+			currentVersion = FB0B3E521AFDFA9700079A74 /* atlas.xcdatamodel */;
+			path = atlas.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FB0B3E3F1AFDFA9700079A74 /* Project object */;
+}
